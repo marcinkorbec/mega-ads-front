@@ -2,3 +2,7 @@
   background: #f8c173;
   height: calc(100vh - 48px);
 }
+
+.leaflet-container {
+  height: 100%;
+}
