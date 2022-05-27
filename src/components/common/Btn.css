@@ -1,0 +1,14 @@
+button {
+  background: linear-gradient(rgb(172, 107, 191) 0%, rgb(105, 52, 144) 100%);
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 0.5em #d2cece;
+  text-transform: uppercase;
+  
+}
+
+button:hover {
+  background: #AC6BBF;
+}
