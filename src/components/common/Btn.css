@@ -1,4 +1,4 @@
-button {
+button, .btn {
   background: linear-gradient(rgb(247, 184, 1) 0%, rgb(243, 91, 4) 100%);
   color: white;
   border: 1px solid white;
@@ -6,9 +6,10 @@ button {
   border-radius: 5px;
   box-shadow: 0 0 0.5em #d2cece;
   text-transform: uppercase;
-  
+  text-decoration: none;
 }
 
-button:hover {
+button:hover, .btn:hover {
   background: #AC6BBF;
+  cursor: pointer;
 }
