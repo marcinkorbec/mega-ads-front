@@ -1,8 +1,20 @@
 .map {
-  background: #f8c173;
+  background: #F7B801;
   height: calc(100vh - 48px);
 }
 
 .leaflet-container {
   height: 100%;
+}
+
+.leaflet-popup-content {
+  width: 100%;
+}
+
+.leaflet-popup-content-wrapper {
+  min-width: 300px;
+}
+
+p {
+  font-family: Calibri;
 }
