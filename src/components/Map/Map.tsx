@@ -21,7 +21,6 @@ export const Map = ()=> {
 
   return (
     <div className="map">
-      <p>Wyniki dla: {search}</p>
       <MapContainer center={[51.742349, 19.284055]} zoom={7} >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

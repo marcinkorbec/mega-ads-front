@@ -1,0 +1,39 @@
+.add-form {
+  max-width: 600px;
+  margin: 0 auto;
+  /*border: 1px solid #d2cece;*/
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Calibri;
+}
+
+.add-form h1 {
+  text-align: center;
+}
+
+.add-form input,
+.add-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d2cece;
+  border-radius: 5px;
+}
+
+.add-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.add-form label small {
+  font-weight: normal;
+}
+
+.add-form button {
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  margin-top: 35px;
+}
